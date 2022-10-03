@@ -7,10 +7,11 @@ import matplotlib as plt
 
 # Import the penguins dataset:
 
-pd.read_csv("https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv")
+penguins = pd.read_csv("https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv")
 
-readit_all(filename="penguins.csv")
+readit_all(penguins)
 
+process(data)
 
 for s in species:
     X_subset = [d for i, d in enumerate(X) if s == Z[i]]
