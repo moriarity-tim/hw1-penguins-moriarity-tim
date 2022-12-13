@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 x_label = "bill_length_mm"
 y_label = "bill_depth_mm"
 z_label = "species"
+data = [X,Y,Z]
 species = set([d[z_label] for d in data])
 colormap = {s: ['tab:blue', 'tab:orange', 'tab:green'][i] for i,s in enumerate(species)}
 

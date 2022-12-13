@@ -20,4 +20,4 @@ Process:
 
 PenguinScatter:
 
-	python _B PenguinScatter.py
+	python -B PenguinScatter.py
