@@ -1,4 +1,7 @@
 # Function to process data on bill length & flipper length measured in mm of the various species
+import readit_all
+import matplotlib.pyplot as plt
+
 def process(data, x = "bill_length_mm", y = "flipper_length_mm", z = "species"):
     """
     Extract 2 items/columns, remove missing data "NA" and cast strings to floats

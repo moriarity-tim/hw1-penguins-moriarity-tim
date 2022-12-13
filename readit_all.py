@@ -1,5 +1,8 @@
 # Reading the file all at once
-def readit_all(PenguinData):
+
+
+
+def readit_all():
   """
   Read and parse CSV -- read entire file all at once.
   """

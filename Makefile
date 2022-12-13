@@ -1,23 +1,20 @@
 
-all: data PenguinData Readit_all Process PenguinScatter
+all: data  Readit_all Process Penguins
 
 .PHONY: data
 data:
 
 	mkdir -p data
 
-PenguinData: data/
-
-	curl -O data/penguins.csv "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv"
-
 Readit_all: 
-
+	
+	curl -o data/penguins.csv "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv"
 	python -B readit_all.py
 
 Process:
 
 	python -B process.py
 
-PenguinScatter:
+Penguins:
 
-	python -B PenguinScatter.py
+	python -B penguins.py
