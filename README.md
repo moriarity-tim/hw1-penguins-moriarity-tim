@@ -8,5 +8,4 @@ make all
 
 # will recreate the image shown below
 
-![Screenshot](PenguinScatter.png)
-
+<img src='PenguinScatter.png'>
