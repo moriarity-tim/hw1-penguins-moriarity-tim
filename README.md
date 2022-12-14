@@ -8,5 +8,5 @@ make all
 
 # will recreate the image shown below
 
-![alt text](PenguinScatter.png)
+![Screenshot](PenguinScatter.png)
 
