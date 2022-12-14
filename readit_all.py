@@ -2,7 +2,7 @@
 
 
 
-def readit_all():
+def readit_all(filename = "penguins.csv"):
   """
   Read and parse CSV -- read entire file all at once.
   """
