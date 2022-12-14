@@ -31,7 +31,7 @@ for s in species:
   Y_subset=[y_sub for y_sub,z_sub in zip(Y,Z) if z_sub==s]
 
   plt.scatter(X_subset, Y_subset, label=s)
-
-plt.legend()
+  plt.legend()
+  plt.savefig('PenguinScatter.png')
+  
 plt.show()
-plt.savefig('PenguinScatter.png')

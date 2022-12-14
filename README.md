@@ -7,4 +7,4 @@ make all
 ```
 ### run on command line will recreate the image shown below
 
-![](PenguinScatter.png)
+![alt text](PenguinScatter.png)
