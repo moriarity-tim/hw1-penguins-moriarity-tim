@@ -8,7 +8,7 @@ data:
 
 Readit_all: 
 	
-	curl -o data/penguins.csv "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv"
+	curl -o penguins.csv "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv"
 	python -B readit_all.py
 
 Process:
