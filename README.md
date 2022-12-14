@@ -5,6 +5,8 @@
 ```
 make all
 ```
-### run on command line will recreate the image shown below
+#### run on command line will recreate the image shown below
 
-![alt text](PenguinScatter.png)
+
+![](PenguinScatter.png)
+
